@@ -1,0 +1,1256 @@
+.container
+{
+	width:95%;
+	box-shadow: 4px 0 8px black,
+				-4px 0 8px black ;
+	padding: 0 ;
+}
+.row
+{
+	margin:0 ;
+}
+
+
+/* start login */
+.login .navbar-inverse
+{
+	margin:0;
+	border-radius: 0 ;
+	border: 0;
+	font-family: Forte , Jokerman  ;
+}
+.login .navbar-inverse .left
+{
+	float:left;
+}
+.login .navbar-inverse .right
+{
+	float: right; 
+}
+/* end login */
+
+/* start navber */
+.navbar-toggle
+{
+	background: none ;
+	border:0;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+	background:black;
+	box-shadow: 1px 1px 8px #c0cf2e ;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus
+{
+ 	background: none ;
+	border:0;
+}
+.nav > li
+{
+    display: inline-block;
+    float: left;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form
+{
+	border:0;
+}
+.navbar-default
+{
+	padding:10px;
+	margin: 0 ;
+	background: white ;
+}
+.navbar-default .header ,
+.navbar-header
+{
+	display: inline-block;
+}
+.navbar-default .header h1
+{
+	margin:0;
+	font-family: Forte , Jokerman  ;
+	margin-left:10px ;
+	margin-top: 5px ;
+	font-weight: bold ;
+	text-shadow: 1px 1px 8px #c0cf2e ;
+}
+.navbar-default .mynav ,
+.navbar-header
+{
+	float:right;
+}
+.navbar-default .mynav a
+{
+	font-weight: bold ;
+	color:black !important;
+	font-family: Forte , Jokerman  ;
+	font-size: 20px ;
+}
+.navbar-default .mynav .active
+{
+	text-shadow: 1px 1px 8px #c0cf2e ;
+}
+.navbar-default .mynav a:hover
+{
+	text-shadow: 1px 1px 8px #c0cf2e ;
+}
+/* end navber */
+
+/* start contact */
+.contact
+{
+	background-image: url('../images/1.jpeg');
+	background-size: 100% 100% ;
+}
+.color
+{
+	background: rgba(0,0,0,0.6);
+}
+.color .left
+{
+	margin:100px 0 0 50px;
+}
+.color .left h1
+{
+	color:white;
+	width: 80%;
+	font-size:60px;
+	margin-bottom: 30px ;
+	margin-top: 50px ;
+	text-shadow: 2px 2px 8px #c0cf2e ;
+	font-family: Forte , Jokerman  ;
+}
+.color .left p
+{
+	color:#c0cf2e ;
+	margin-bottom: 20px ;
+	font-size: 20px
+}
+.color .left h5
+{
+	padding-left: 50px ;
+	color: white ;
+	margin-top: 15px;
+}
+.color .right
+{
+	box-shadow: 2px 2px 8px black ;
+	background:white;
+	border-radius: 10px ;
+	width: 35% ;
+	margin:100px 20px 100px 50px;
+	padding:30px;
+	font-weight: bold ;
+	box-shadow: 2px 2px 8px #c0cf2e ;
+	text-shadow: 0 1px 2px #c0cf2e ;
+}
+.color .right h4
+{
+	margin:0 ;
+	text-shadow: 0 1px 8px #c0cf2e ;
+	font-weight: bold ;
+}
+.color .right input[type=text]
+{
+	width:100% ;
+	border:1px solid #ccc;
+	border-width: 0 0 1px 0 ;
+	margin-bottom: 30px ;
+	outline: 0 ;
+
+	width: 80% ;
+}
+.color .right .money
+{
+	background:#f9f9f9 ;
+	padding:20px;
+	margin-top: 20px ;
+	border-radius: 5px ;
+}
+.color .right .hint
+{
+	margin: 20px 0 ;
+}
+.color .right .submit
+{
+	text-align: center;
+}
+.color .right input[type=submit]
+{
+	background: #c0cf2e ;
+	font-size: 20px ;
+	color: white ;
+	padding:10px;
+	width:80% ;
+	border-radius: 10px;
+	box-shadow: 2px 2px 8px black ;
+	text-shadow: 2px 2px 8px black ;
+	border: 0 ;
+	font-weight: bold ;
+}
+/* end contact */
+
+/* start services */
+.services
+{
+	padding:40px;
+	text-align: center;
+}
+.services img
+{
+	height: 150px ;
+	width: 150px;
+	border-radius: 50% ;
+}
+.services h2
+{
+	font-size: 20px ;
+	font-weight: bold ;
+	text-shadow: 0 1px 2px #c0cf2e ;
+	font-family: Forte , Jokerman  ;
+}
+hr
+{ 	
+    margin-top: 15px ;
+    margin-bottom: 15px ;
+    margin-left: auto;
+    margin-right: auto;
+    border:4px solid #ccc;
+    width:100px;
+}
+.services p
+{
+	color: rgba(0,0,0,0.6); ;
+	font-weight: bold ;
+}
+/* end services */
+
+/* start work */
+.work
+{
+	background-image: url('../images/3.jpeg');
+	background-size: 100% 100% ;
+}
+.work .back
+{
+	background: rgba(0,0,0,0.6);
+	padding: 40px ;
+}
+.work .back .center
+{
+	text-align: center ;
+}
+.work h1,
+.work h3
+{
+	color: white ;
+	font-weight: bold ;
+	text-shadow: 2px 2px 8px #c0cf2e ;
+	font-family: Forte , Jokerman  ;
+}
+.work h1 span
+{
+	color:#c0cf2e;
+	text-shadow: 0 1px 6px black ;
+}
+.work h3
+{
+	color:#c0cf2e;
+	margin-bottom: -10px ;
+	text-shadow: 2px 2px 8px black ;
+}
+.work p
+{
+	font-size: 15px ;
+	line-height: 30px ;
+	margin: 50px 0;
+	color:white;
+	text-shadow: 0 1px 2px #c0cf2e ;
+}
+.work .good
+{
+	padding:10px; 
+	text-align: center ;
+}
+.work .good .complex
+{
+	margin-top: 50px
+}
+.work .good .one
+{
+	width:35%;
+	text-align: right;
+	float: left;
+}
+.work .good .one .child
+{
+	color: #c0cf2e;
+	font-size: 50px
+}
+.work .good .two
+{
+	width:60%;
+	float:right;
+	text-align: left;
+}
+.work .good .two h4
+{
+	font-weight: bold ;
+	display: inline-block;
+	color:white;
+	text-shadow: 0 1px 2px #c0cf2e ;
+	margin:0;
+}
+.work .good .two p
+{
+	margin: 0 ;
+	text-shadow: 0 1px 2px #c0cf2e ;
+	color:white;
+	display: inline-block
+}
+/* end work */
+
+/* start choose */
+.choose
+{
+	padding:80px 4px;
+}
+.choose .center
+{
+	text-align: center
+}
+.choose .center h1
+{
+	font-weight: bold ;
+	font-family: Forte , Jokerman  ;
+	text-shadow: 2px 2px 8px #c0cf2e ;
+}
+.choose .center p
+{
+	font-size: 20px ;
+	color:#ccc;
+	margin-bottom: 100px ;
+	font-weight: bold ;
+}
+.choose .why
+{
+	padding: 0 ;
+	box-sizing: border-box;
+	padding:5px;
+}
+.choose .why .icon
+{
+	width:100px;
+	height: 100px ;
+	border-radius: 50% ;
+	margin:auto ;
+	position: relative ;
+	z-index: 2 ;	
+	background: #c0cf2e ;
+}
+.choose .why .icon div
+{
+	margin:25px 25px;
+	font-size: 50px ;
+	color:white;
+}
+.choose .why .words
+{
+	height: 300px ;
+	text-align: center ;
+	border: 1px solid #ccc;
+	background: #f6f6f6 ;
+	border-radius: 5px ;
+	position: relative ;
+	margin-top: -50px ;
+	z-index: 1 ;
+}
+.choose .why .words h3
+{
+	margin:80px 0 50px 0;
+	font-weight: bold ;
+	text-shadow: 2px 2px 8px #c0cf2e ;
+	font-family: 'Agency FB'  ;
+}
+.choose .why .words p
+{
+	width:80%;
+	margin-left: 20px ;
+	font-weight: bold ;
+	color:rgba(0,0,0,0.6);
+}
+/* end choose */
+
+/* start pyment */
+.pyment
+{
+	padding:50px;
+	background: #c0cf2e ;
+	text-align: center ;
+}
+.pyment h1
+{
+	color:white ;
+	font-weight: bold ;
+	margin:0 0 50px 0;
+	font-family: Forte , Jokerman  ;
+
+}
+.pyment img
+{
+	width:80%;
+	height:100px;
+	float:left;
+	border-radius: 5px ;
+}
+/* end pyment */
+
+/* start footer */
+.footer
+{
+	background: #1d1d1d ;
+	min-height: 300px ;
+}
+.footer .left
+{
+	padding: 0 50px;
+}
+.footer .left h2
+{
+	margin:40px 0;
+	font-weight: bold ;
+	font-family: Forte , Jokerman  ;
+	text-shadow: 0 1px 2px #c0cf2e ;
+	color: #696969 ;
+}
+.footer .left h2 span
+{
+	color: #c0cf2e ;
+	text-shadow: 0 1px 2px black ;
+}
+.footer .left p
+{
+	font-weight: bold ;
+	line-height: 1.6 ;
+	text-align: justify;
+	color: #696969;
+}
+
+.footer .right
+{
+	padding: 0 50px;
+}
+.footer .right h2
+{
+	margin:40px 0;
+	font-weight: bold ;
+	font-family: Forte , Jokerman  ;
+	text-shadow: 0 1px 2px #c0cf2e ;
+	color: #696969 ;
+}
+.footer .right h2 span
+{
+	color: #c0cf2e ;
+	text-shadow: 0 1px 2px black ;
+}
+.footer .right p
+{
+	font-weight: bold ;
+	line-height: 1.6 ;
+	text-align: justify;
+	color:#696969;
+}
+.footer .right i
+{
+	font-size: 20px ;
+	color:#c0cf2e;
+	margin: 10px 5px 
+}
+/* end footer */
+
+/* start Copyright */
+.copy-Right
+{
+	min-height:20px ;
+	background:rgb(0,0,0) ;
+	color:white ;
+	text-align:center ;
+	font-family:Gaegu ;
+}
+.copy-Right h5 
+{
+	margin:0 ;
+	padding:5px ;
+	text-shadow: 2px 2px 8px #c0cf2e ;
+}
+/* end copyright */
+
+
+/* media query mobile */
+
+@media ( max-width: 767px )   
+{
+	/* start login */
+	.login .navbar-inverse a
+	{
+		font-size: 15px
+	}
+	/* end login */
+
+	/* start navber */
+	.navbar-default
+	{
+		padding:2px;
+	}
+	.navbar-default .header h1
+	{
+		font-size: 20px ;
+		margin-top: 15px
+	}
+	.navbar-default .mynav a
+	{
+		font-weight: bold ;
+		color:black !important;
+		font-size: 12px ;
+	}
+	/* end navber */
+
+	/* start contact */
+	.color .left
+	{
+		margin:20px 0 0 20px;
+		padding: 0
+	}
+	.color .left h1
+	{
+		width: 90%;
+		font-size:20px;
+		margin-bottom: 10px ;
+		margin-top: 0px ;
+	}
+	.color .left p
+	{
+		color:#c0cf2e ;
+		margin-bottom: 20px ;
+		font-size: 12px ;
+		width:90% ;
+	}
+	.color .left h5
+	{
+		padding-left: 10px ;
+		color: white ;
+		font-size: 12px ;
+		width:90% ;
+	}
+	.color .right
+	{
+		border-radius: 5px ;
+		width: 250px ;
+		margin:50px auto ;
+		padding:15px;
+	}
+	.color .right h4
+	{
+		font-size: 12px ;
+	}
+	.color .right input[type=text]
+	{
+		width: 90% ;
+	}
+	.color .right .money
+	{
+		padding:10px;
+		margin-top: 0 ;
+		font-size: 10px
+	}
+	.color .right .hint
+	{
+		margin: 10px 0 ;
+		font-size: 10
+	}
+	.color .right .submit
+	{
+		text-align: center;
+	}
+	.color .right input[type=submit]
+	{
+		font-size: 10px ;
+	}
+	/* end contact */
+
+	/* start services */
+	.services
+	{
+		padding:20px;
+	}
+	.services img
+	{
+		height: 100px ;
+		width: 100px;
+	}
+	.services h2
+	{
+		font-size: 15px ;
+		font-weight: bold ;
+	}
+	hr
+	{ 	
+	    margin-top: 10px ;
+	    margin-bottom: 10px ;
+	    border:2px solid #ccc;
+	    width:50px;
+	}
+	.services p
+	{
+		font-size: 10px ;
+		margin-bottom: 30px
+	}
+	/* end services */
+
+	/* start work */
+	.work .back
+	{
+		padding: 20px ;
+	}
+	.work .center ,
+	.work .justify
+	{
+		padding:0;
+	}
+	.work h1
+	{
+		font-size:15px;
+		line-height: 20px
+	}
+	.work h3
+	{
+		font-size: 12px ;
+		margin-bottom: 10px
+	}
+	.work p
+	{
+		font-size: 15px ;
+		line-height: 15px ;
+		margin: 20px 0;
+	}
+	.work .good
+	{
+		padding: 0
+	}
+	.work .good .complex
+	{
+		margin-top: 25px
+	}
+	.work .good .one
+	{
+		width:38%;
+	}
+	.work .good .one .child
+	{
+		color: #c0cf2e;
+		font-size: 30px
+	}
+	.work .good .two
+	{
+		width:60%;
+		float:right;
+		text-align: left;
+	}
+	.work .good .two h4
+	{
+		font-size: 15px
+	}
+	.work .good .two p
+	{
+		font-size: 10px
+	}
+	/* end work */
+
+	/* start choose */
+	.choose
+	{
+		padding:20px 4px;
+	}
+	.choose .center h1
+	{
+		font-size:15px;
+	}
+	.choose .center p
+	{
+		font-size: 12px ;
+		margin-bottom: 50px ;
+	}
+	.choose .why .words
+	{
+		height: 220px ;
+		width:200px;
+		padding:5px;
+		margin:auto;
+		margin-bottom: 50px ;
+	}
+	.choose .why .icon
+	{
+		width:60px;
+		height: 60px ;
+	}
+	.choose .why .words
+	{
+		margin-top: -30px
+	}
+	.choose .why .icon div
+	{
+		margin:13px 13px;
+		font-size: 35px ;
+		color:white;
+	}
+	.choose .why .words h3
+	{
+		margin:60px 0 30px 0;
+		font-weight: bold ;
+		text-shadow: 2px 2px 8px #c0cf2e ;
+		font-size: 15px
+	}
+	.choose .why .words p
+	{
+		width:90%;
+		margin-left: 10px ;
+		font-size: 12px
+	}
+	/* end choose */
+
+
+	/* start pyment */
+	.pyment
+	{
+		padding:20px;
+	}
+	.pyment h1
+	{
+		font-size: 20px ;
+		margin:0 0 30px 0;
+	}
+	.pyment img
+	{
+		width:100%;
+		height:35px;
+		margin-bottom:10px;
+	}
+	/* end pyment */
+
+	/* start footer */
+	.footer .left
+	{
+		padding: 0 20px;
+	}
+	.footer .left h2
+	{
+		margin:20px 0;
+		font-size: 20px
+	}
+	.footer .left p
+	{
+		font-size: 10px	
+	}
+	.footer .right
+	{
+		padding: 0 20px;
+	}
+	.footer .right h2
+	{
+		margin:20px 0;
+		font-size: 20px
+	}
+	.footer .right p
+	{
+		font-size: 10px ;
+		margin-bottom: 0
+	}
+	.footer .right i
+	{
+		font-size: 15px ;
+		color:#c0cf2e;
+		margin: 15px 5px 
+	}
+	/* end footer */
+
+	/* start Copyright */
+	.copy-Right
+	{
+	}
+	.copy-Right h5 
+	{
+		font-size: 10	px;
+	}
+	/* end copyright */
+}	
+
+/* media query small */
+@media ( min-width:768px ) and ( max-width: 991px )   
+{
+	/* start navber */
+	.navbar-default
+	{
+		padding:5px;
+	}
+	.navbar-default .header h1
+	{
+		font-size: 20px ;
+		margin-top: 15px
+	}
+	.navbar-default .mynav
+	{
+		padding: 0
+	}
+	.navbar-default .mynav a
+	{
+		font-size: 15px ;
+	}
+	/* end navber */
+
+	/* start contact */
+	.contact
+	{
+		padding:0;
+	}
+	.color .left 
+	{
+		margin: 50px 0 0 35px;
+	}
+	.color .left h1
+	{
+		width: 100%;
+		font-size:40px;
+		margin: 0 ;
+		margin-bottom: 15px
+	}
+	.color .left p
+	{
+		font-size: 17px
+	}
+	.color .left h5
+	{
+		padding-left: 40px ;
+	}
+	.color .right
+	{
+		margin:50px 30%;
+		width: 320px ;
+	}
+	.color .right h4
+	{
+		font-size: 15px ;
+	}
+	.color .right .money
+	{
+		padding:7px;
+		margin-top: 0 ;
+	}
+	.color .right .hint
+	{
+		margin: 7px 0 ;
+	}
+	.color .right input[type=submit]
+	{
+		font-size: 15px ;
+		margin-top: 10px ;
+	}
+	/* end contact */
+
+	/* start services */
+	.services
+	{
+		padding:10px 10px;
+	}
+	.services .all
+	{
+		margin:20px 0;
+	}
+	.services img
+	{
+		height: 120px ;
+		width: 120px;
+	}
+	.services h2
+	{
+		font-size: 15px ;
+	}
+	hr
+	{ 	
+	    margin-top: 12px ;
+	    margin-bottom: 12px ;
+	    border:3px solid #ccc;
+	    width:40px;
+	}
+	.services p
+	{
+		font-size:15px;
+		width:80%;
+		margin:auto ;
+	}
+	/* end services */
+
+	/* start work */
+	.work .back
+	{
+		padding: 30px ;
+	}
+	.work h1
+	{
+		font-size: 28px ;
+	}
+	.work h3
+	{
+		font-size: 18px  ;
+	}
+	.work p
+	{
+		margin: 20px 0;
+		font-size: 15px ;
+		line-height: 25px
+	}
+	.work .good .complex
+	{
+		margin-top: 40px
+	}
+	.work .good .one .child
+	{
+		font-size: 30px
+	}
+	.work .good .two h4
+	{
+		font-size: 15px ;
+	}
+	.work .good .two p
+	{
+		font-size: 12px
+	}
+	/* end work */
+
+	/* start choose */
+	.choose
+	{
+		padding:40px 10px 0 10px;
+	}
+	.choose .center h1
+	{
+		font-size: 30px
+	}
+	.choose .center p
+	{
+		font-size: 15px ;
+	}
+	.choose .why
+	{
+		padding:10px;
+	}
+	.choose .why .icon
+	{
+		width:80px;
+		height: 80px ;
+	}
+	.choose .why .words
+	{
+		margin-top: -40px !important ;
+	}
+	.choose .why .icon div
+	{
+		font-size: 40px ;
+		margin:20px 20px;
+	}
+	.choose .why .words
+	{
+		width: 260px;
+		margin:auto;
+		margin-bottom: 60px ;
+		height:250px;
+	}
+	.choose .why .words h3
+	{
+		margin:60px 0 30px 0;
+		font-size: 15px
+	}
+	.choose .why .words p
+	{
+		width:90%;
+		margin-left: 12px ;
+	}
+	/* end choose */
+
+
+	/* start pyment */
+	.pyment
+	{
+		padding:40px;
+	}
+	.pyment h1
+	{
+		margin:0 0 40px 0;
+		font-size: 25px
+	}
+	.pyment img
+	{
+		width:100%;
+		height:70px;
+	}
+	/* end pyment */
+
+	/* start footer */
+	.footer .left h2
+	{
+		margin:30px 0;
+		font-size: 20px ;
+	}
+	.footer .left p
+	{
+		font-size: 15px
+	}
+	.footer .right h2
+	{
+		margin:30px 0;
+		font-size: 20px ;
+	}
+	.footer .right p
+	{
+		font-size: 12px
+	}
+	.footer .right i
+	{ 
+	}
+	/* end footer */
+
+	/* start Copyright */
+	.copy-Right
+	{
+	}
+	.copy-Right h5 
+	{
+		font-size: 12px	
+	}
+	/* end copyright */
+
+}
+
+/* media query medium */
+@media ( min-width:991px ) and ( max-width: 1199px )   
+{
+	/* start navber */
+	.navbar-default
+	{
+		padding:7px;
+	}
+	.navbar-default .header h1
+	{
+		font-size: 25px ;
+		margin-top: 10px
+	}
+	.navbar-default .mynav
+	{
+		padding: 0
+	}
+	.navbar-default .mynav a
+	{
+		font-size: 17px ;
+	}
+	/* end navber */
+
+	/* start contact */
+	.color .left h1
+	{
+		width: 90%;
+		font-size:50px;
+		margin-bottom: 30px ;
+		margin-top: 20px ;
+	}
+	.color .left p
+	{
+		font-size: 17px
+	}
+	.color .left h5
+	{
+		padding-left: 40px ;
+	}
+	.color .right
+	{
+		margin:50px 20px 50px 50px;s
+	}
+	.color .right h4
+	{
+		font-size: 17px ;
+	}
+	.color .right .money
+	{
+		padding:10px;
+		margin-top: 0 ;
+	}
+	.color .right .hint
+	{
+		margin: 10px 0 ;
+	}
+	.color .right input[type=submit]
+	{
+		font-size: 17px ;
+		border: 0 ;
+		margin-top: 10px ;
+		font-weight: bold ;
+	}
+	/* end contact */
+
+	/* start services */
+	.services
+	{
+		padding:30px;
+	}
+	.services img
+	{
+		height: 140px ;
+		width: 140px;
+	}
+	.services h2
+	{
+		font-size: 17px ;
+	}
+	hr
+	{ 	
+	    margin-top: 12px ;
+	    margin-bottom: 12px ;
+	    border:3px solid #ccc;
+	}
+	/* end services */
+
+	/* start work */
+	.work .back
+	{
+		padding: 30px ;
+	}
+	.work h1
+	{
+		font-size: 32px ;
+	}
+	.work h3
+	{
+		font-size: 20px  ;
+	}
+	.work p
+	{
+		margin: 30px 0;
+	}
+	.work .good .complex
+	{
+		margin-top: 40px
+	}
+	.work .good .one .child
+	{
+		font-size: 40px
+	}
+	.work .good .two h4
+	{
+		font-size: 17px ;
+	}
+	/* end work */
+
+	/* start choose */
+	.choose
+	{
+		padding:60px 4px;
+	}
+	.choose .center h1
+	{
+		font-size: 35px
+	}
+	.choose .center p
+	{
+		font-size: 18px ;
+	}
+	.choose .why
+	{
+		padding:3px;
+	}
+	.choose .why .icon
+	{
+		width:90px;
+		height: 90px ;
+	}
+	.choose .why .icon div
+	{
+		font-size: 45px ;
+		color:white;
+	}
+	.choose .why .words
+	{
+		margin-top: -40px ;
+	}
+	.choose .why .words h3
+	{
+		margin:80px 0 30px 0;
+		font-size: 20px
+	}
+	.choose .why .words p
+	{
+		width:90%;
+		margin-left: 15px ;
+	}
+	/* end choose */
+
+
+	/* start pyment */
+	.pyment
+	{
+		padding:45px;
+	}
+	.pyment h1
+	{
+		margin:0 0 45px 0;
+	}
+	.pyment img
+	{
+		width:90%;
+		height:90px;
+	}
+	/* end pyment */
+
+	/* start footer */
+	.footer
+	{
+		background: #1d1d1d ;
+		min-height: 280px ;
+	}
+	.footer .left
+	{
+		padding: 0 40px;
+	}
+	.footer .left h2
+	{
+		margin:30px 0;
+		font-size: 25px ;
+	}
+	.footer .left p
+	{
+	}
+	.footer .right
+	{
+		padding: 0 40px;
+	}
+	.footer .right h2
+	{
+		margin:30px 0;
+		font-size: 25px ;
+	}
+	.footer .right p
+	{
+	}
+	.footer .right i
+	{ 
+	}
+	/* end footer */
+
+	/* start Copyright */
+	.copy-Right
+	{
+	}
+	.copy-Right h5 
+	{	
+	}
+	/* end copyright */
+}

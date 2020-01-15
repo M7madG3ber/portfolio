@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 80%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #ccc;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#header {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 8px #102f7c;
+}
+
+.addItems-container {
+    background: #f3f3f3;
+}
+
+.addItems-container, .displayItems-container {
+    margin: 1rem 0;
+    padding: 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    border: 2px solid #272932;
+    -webkit-box-shadow: 0 5px 10px #272932;
+    box-shadow: 0 5px 10px #272932;
+}
+
+.addItems-title, .displayItems-title {
+    text-transform: capitalize;
+}
+
+.addItems-action, .displayItems-action {
+    border: 2px solid black;
+    padding: 0.5rem 0;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    display: none;
+    margin-bottom: 20px;
+}
+
+.addItems-input {
+    background: transparent;
+    border: none;
+    border-bottom: 5px solid black;
+    width: 100%;
+    font-size: 2rem;
+    padding: 0.5rem;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.addItems-submit, .displayItems-clear {
+    display: block;
+    width: 80%;
+    margin: 2rem auto 0 auto;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.addItems-submit {
+    color: black;
+    background: transparent;
+    border: 3px solid black;
+}
+
+.displayItems-container {
+    background: #B6C2D9;
+}
+
+.displayItems-title {
+    margin-bottom: 0.25rem;
+}
+
+.messages-item {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    margin: 0.5rem 0;
+}
+
+.messages-item:hover {
+    background: #828489;
+}
+
+.messages-item__title {
+    text-align: left;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    /* text-transform: capitalize; */
+    color: #272932;
+}
+
+.messages-item__link {
+    color: red;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+}
+
+.messages-item:hover .messages-item__link {
+    -webkit-transform: scale(2);
+    transform: scale(2)
+}
+
+.displayItems-clear {
+    background: transparent;
+    border: 3px solid black;
+}
+
+/* action classes */
+
+.alert {
+    color: red;
+    border-color: red;
+    display: block;
+}
+
+.success {
+    color: green;
+    border-color: green;
+    display: block;
+}
+
+@media screen and (min-width:768px) {
+    body {
+        grid-template-columns: 50%;
+    }
+}

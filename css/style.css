@@ -1,0 +1,574 @@
+@font-face {
+  font-family: cairo;
+  src: url(../fonts/Cairo-Regular.ttf);
+}
+
+@font-face {
+  font-family: GrandHotel;
+  src: url(../fonts/GrandHotel-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cairo;
+}
+
+:root {
+  --light: #fff;
+  --dark: #181b24;
+  --secondDark: #3a3e3b;
+  --primaryColor: #698f3f;
+  --secondaryColor: #fca311;
+  --slantedText: GrandHotel, cursive;
+}
+
+img {
+  width: 100%;
+}
+
+.section-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-btn {
+  display: inline-block;
+  background: var(--primaryColor);
+  text-transform: uppercase;
+  padding: 0.8rem 1.2rem 0.7rem 1.2rem;
+  color: var(--secondDark);
+  font-weight: bold;
+  outline: 0.2rem solid var(--primaryColor);
+  outline-offset: 4px;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: all 1s ease;
+  border: none;
+}
+
+.main-btn:hover {
+  color: var(--light);
+}
+
+.section-title h3 {
+  color: var(--primaryColor);
+  font-size: 40px;
+  font-family: GrandHotel;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* navbar */
+
+nav {
+  background: var(--dark);
+  padding: 5px 0;
+}
+
+.logo-title {
+  font-size: 30px;
+  color: var(--light);
+  letter-spacing: 3px;
+}
+
+.logo-title span {
+  color: var(--primaryColor);
+}
+
+.logo .fas {
+  font-size: 30px;
+  color: var(--primaryColor);
+  transition: all 1s ease;
+  padding: 5px 10px;
+  font-size: 15px;
+  border: 1px solid #807e7e;
+  border-radius: 5px;
+}
+
+.logo .fas:hover {
+  transform: scale(1.2);
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  font-size: 15px;
+  display: block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  transition: all 2s ease;
+}
+
+.nav-links a:hover {
+  color: black;
+  background: #ccc;
+  padding-left: 40px;
+}
+
+.nav-links {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo .fas {
+    display: none;
+  }
+  .logo {
+    flex: 0 0 auto;
+  }
+  .nav-links {
+    flex: 1 0 auto;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-links a {
+    flex: 1 0 auto;
+    text-align: right;
+    margin-bottom: 0;
+    transition: none;
+    transition: color 1s ease;
+    font-size: 17px;
+  }
+  .nav-links a:hover {
+    color: var(--primaryColor);
+    background: transparent;
+    padding-left: 10px;
+  }
+}
+
+/* end of navbar */
+
+/* banner */
+
+#banner {
+  min-height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/b.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-info #myName {
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: var(--light);
+  text-align: center;
+  text-shadow: 0 0 8px var(--dark);
+  display: none;
+}
+
+.banner-info #myTitle {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--primaryColor);
+  text-align: center;
+  font-family: GrandHotel;
+  letter-spacing: 5px;
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+  .banner-info #myName {
+    font-size: 2rem;
+  }
+  .banner-info #myTitle {
+    font-size: 1.5rem;
+  }
+}
+
+/* end of banner */
+
+.linear {
+  background: linear-gradient(
+    to right,
+    var(--secondaryColor),
+    var(--primaryColor),
+    var(--secondaryColor)
+  );
+  height: 5px;
+}
+
+/* start education */
+
+#education {
+  padding: 50px 0;
+}
+
+.education-info {
+  padding: 30px;
+}
+
+.eduction-link {
+  padding-left: 10px;
+}
+
+.education-info h3 {
+  font-size: 40px;
+  color: var(--primaryColor);
+  font-family: GrandHotel;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.education-info p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 50px;
+  font-style: italic;
+}
+
+.education-info p span {
+  color: var(--primaryColor);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+  .education {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .education-image,
+  .education-info {
+    flex: 1 0 calc(50% - 1rem);
+  }
+}
+
+/* end of education */
+
+/* skills */
+
+#skills {
+  padding: 60px 0;
+  background: var(--secondDark);
+  background: #9bc99b;
+}
+
+#skills .section-title h3 {
+  color: var(--dark);
+  color: green;
+}
+
+.skill-item {
+  padding: 20px 10px;
+  margin-bottom: 10px;
+  transition: all 2s ease;
+}
+
+.skill-item:hover {
+  background: var(--dark);
+}
+
+.skill-item p {
+  transition: all 2s ease;
+  color: var(--dark);
+}
+
+.skill-item p span {
+  transition: all 2s ease;
+  color: var(--dark);
+}
+
+.skill-item:hover p {
+  color: var(--light);
+}
+
+.skill-item:hover p span {
+  color: var(--secondaryColor);
+}
+
+.skill-item div {
+  background: #fff;
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.skill-item .laravel div,
+.skill-item .codeigniter div,
+.skill-item .wordpress div,
+.skill-item .php div {
+  background: var(--primaryColor);
+  height: 5px;
+  position: absolute;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  top: 0;
+  left: 0;
+}
+
+.skill-item .laravel div {
+  width: 90%;
+}
+
+.skill-item .codeigniter div {
+  width: 85%;
+}
+
+.skill-item .wordpress div {
+  width: 80%;
+}
+
+.skill-item .php div {
+  width: 95%;
+}
+
+@media screen and (min-width: 500px) {
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  .skill-item {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* wnd of skills */
+
+/* projects */
+
+#projects {
+  padding: 60px 0;
+}
+
+.project-item1 {
+  background: url("../images/p1.jpg");
+}
+
+.project-item2 {
+  background: url("../images/p2.jpg");
+}
+
+.project-item3 {
+  background: url("../images/p1.jpg");
+}
+
+.project-item4 {
+  background: url("../images/p2.jpg");
+}
+
+.project-item {
+  position: relative;
+  min-height: 40vh;
+  transition: all 1s ease;
+  margin-bottom: 20px;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.project-item .project-name {
+  position: absolute;
+  bottom: -0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 1s ease;
+  color: var(--dark);
+  background: var(--dark);
+  padding: 20px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-item .project-name h3 {
+  color: var(--primaryColor);
+}
+
+.project-item .project-name a {
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+.project-item .project-name .fas {
+  transition: all 1s ease;
+}
+
+.project-item .project-name a:hover .fas {
+  font-size: 20px;
+}
+
+.project-item:hover {
+  box-shadow: 1px 1px 10px black;
+  transform: scale(1.025);
+}
+
+@media screen and (min-width: 600px) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .projects-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .projects-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* end of projects */
+
+/* start contact */
+
+.contact {
+  padding: 2rem 0;
+  background: #9bc99b;
+}
+
+.contact-item {
+  margin-bottom: 3rem;
+}
+
+.contact-title {
+  color: green;
+  font-family: var(--slantedText);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-icon i {
+  color: green;
+}
+
+.contact-text {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid green;
+  outline: 0;
+  margin: 0 0 10px 0;
+  padding: 1.3rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: cairo;
+  background: transparent;
+  color: var(--dark);
+}
+
+.form-control::placeholder {
+  color: green;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: GrandHotel;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .section-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-info,
+  .contact-form {
+    flex: 1 0 calc(50% - 1rem);
+  }
+}
+
+/* end contact */
+
+/* start footer */
+
+.footer {
+  background: var(--secondDark);
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.social-icon {
+  color: var(--light);
+  font-size: 1.6rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: all 1s ease;
+}
+
+.social-icon i {
+  transition: all 1s ease;
+}
+
+.social-icon:hover i {
+  color: var(--primaryColor);
+  transform: translate(0, -10px);
+}
+
+.footer-text {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--light);
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-text span {
+  color: var(--primaryColor);
+}
+
+/* end footer */
+
+/* fixed navbar */
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
